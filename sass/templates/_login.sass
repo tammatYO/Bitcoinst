@@ -1,0 +1,112 @@
+.login
+    padding-top: 46px
+    background: url('../img/balls5.svg') no-repeat center 180px
+    &__title
+        font-weight: 900
+        font-size: 48px
+        line-height: 120%
+        color: $white
+        text-align: center
+        margin-bottom: 81px
+    &__block
+        display: flex
+        justify-content: space-between
+        margin-bottom: 90px
+        &--title
+            font-weight: 900
+            font-size: 32px
+            line-height: 140%
+            color: $white
+            margin-bottom: 14px
+        &--info
+            font-weight: 600
+            font-size: 24px
+            line-height: 140%
+            color: $white
+            max-width: 650px
+            width: 100%
+        &--content
+            display: flex
+        &--column
+            display: flex
+            flex-direction: column
+            text-align: center
+            margin-right: 65px
+            &:last-child
+                margin-right: 0
+        &--columnTitle
+            font-weight: 900
+            font-size: 32px
+            line-height: 140%
+            color: $white
+            margin-bottom: 16px
+        &--link
+            padding: 22px 68px
+            filter: drop-shadow(0px 16px 40px rgba(244, 126, 18, 0.6))
+            border: 1px solid #f47e12
+            border-radius: 66px
+            font-weight: 700
+            font-size: 16px
+            line-height: 118.5%
+            color: $white
+            text-decoration: none
+            margin-bottom: 8px
+            &:last-child
+                margin-bottom: 0
+        &--link2
+            margin-bottom: 8px
+            &:last-child
+                margin-bottom: 0
+
+.link1
+    position: relative
+    &::before
+        position: absolute
+        content: ''
+        background: url('../img/windows.svg') no-repeat center
+        width: 20px
+        height: 20px
+        top: 20px
+        left: 40px
+    &::after
+        position: absolute
+        content: ''
+        background: url('../img/arrow.svg') no-repeat center
+        width: 9px
+        height: 6px
+        top: 29px
+        right: 45px
+
+.link2
+    position: relative
+    &::before
+        position: absolute
+        content: ''
+        background: url('../img/apple.svg') no-repeat center
+        width: 20px
+        height: 20px
+        top: 20px
+        left: 60px
+
+.link3
+    position: relative
+    &::before
+        position: absolute
+        content: ''
+        background: url('../img/linux.svg') no-repeat center
+        width: 20px
+        height: 20px
+        top: 20px
+        left: 55px
+
+.red
+    text-transform: 
+    color: red
+    font-weight: bold
+.green
+    color: #2AD6AB
+.gradient
+    background: linear-gradient(28.5deg, #FF4B32 5.95%, #FF9A01 67.26%);
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    text-transform: uppercase
